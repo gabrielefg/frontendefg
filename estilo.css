@@ -7,4 +7,9 @@ body{
 }
 
 header{
-background-color: aquamarine;
+background-color :darkcyan;
+padding: 30px;
+text-align:center;
+font: size 40px;
+color: white
+}
