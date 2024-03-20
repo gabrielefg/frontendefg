@@ -7,9 +7,37 @@ body{
 }
 
 header{
-background-color :darkcyan;
-padding: 30px;
-text-align:center;
-font: size 40px;
-color: white
+    background-color :darkcyan;
+    padding: 30px;
+    text-align:center;
+    font: size 40px;
+    color: white;
 }
+
+nav {
+    float: left;
+    width: 30%;
+    height: 300px;
+    background-color: darkgray;
+    padding: 20px;
+}
+nav ul {
+    list-style-type:none;
+    padding: 0;
+}
+
+article{
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: dimgrey;
+    height: 300px;
+}
+
+/* after = depois */
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+    
